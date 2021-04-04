@@ -1,0 +1,11 @@
+QLVT/Properties/*.settings
+QLVT/Properties/Settings.AssemblyInfo.cs
+QLVT/Properties/Settings.Designer.cs
+QLVT/Properties/*.licx
+QLVT/Properties/*.licx.bak
+QLVT/*.config
+QLVT/bin/
+QLVT/obj/
+*.vsQLVT/bin
+*.vs
+

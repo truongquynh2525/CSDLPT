@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="QLVT_DATHANGDataSet" targetNamespace="http://tempuri.org/QLVT_DATHANGDataSet.xsd" xmlns:mstns="http://tempuri.org/QLVT_DATHANGDataSet.xsd" xmlns="http://tempuri.org/QLVT_DATHANGDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QLVT_DATHANGConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QLVT_DATHANGConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.QLVT.Properties.Settings.GlobalReference.Default.QLVT_DATHANGConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="V_DS_DATHANGTableAdapter" GeneratorDataComponentClassName="V_DS_DATHANGTableAdapter" Name="V_DS_DATHANG" UserDataComponentName="V_DS_DATHANGTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QLVT_DATHANGConnectionString (Settings)" DbObjectName="QLVT_DATHANG.dbo.V_DS_DATHANG" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT MasoDDH FROM dbo.V_DS_DATHANG</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MasoDDH" DataSetColumn="MasoDDH" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="V_DS_KHOTableAdapter" GeneratorDataComponentClassName="V_DS_KHOTableAdapter" Name="V_DS_KHO" UserDataComponentName="V_DS_KHOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QLVT_DATHANGConnectionString (Settings)" DbObjectName="QLVT_DATHANG.dbo.V_DS_KHO" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT MAKHO, TENKHO FROM dbo.V_DS_KHO</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MAKHO" DataSetColumn="MAKHO" />
+              <Mapping SourceColumn="TENKHO" DataSetColumn="TENKHO" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="V_DS_PHANMANHTableAdapter" GeneratorDataComponentClassName="V_DS_PHANMANHTableAdapter" Name="V_DS_PHANMANH" UserDataComponentName="V_DS_PHANMANHTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QLVT_DATHANGConnectionString (Settings)" DbObjectName="QLVT_DATHANG.dbo.V_DS_PHANMANH" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT TENCN, TENSERVER FROM dbo.V_DS_PHANMANH</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="TENCN" DataSetColumn="TENCN" />
+              <Mapping SourceColumn="TENSERVER" DataSetColumn="TENSERVER" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="V_DS_VATTUTableAdapter" GeneratorDataComponentClassName="V_DS_VATTUTableAdapter" Name="V_DS_VATTU" UserDataComponentName="V_DS_VATTUTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QLVT_DATHANGConnectionString (Settings)" DbObjectName="QLVT_DATHANG.dbo.V_DS_VATTU" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT MAVT, TENVT FROM dbo.V_DS_VATTU</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MAVT" DataSetColumn="MAVT" />
+              <Mapping SourceColumn="TENVT" DataSetColumn="TENVT" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="QLVT_DATHANGDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="QLVT_DATHANGDataSet" msprop:Generator_UserDSName="QLVT_DATHANGDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="V_DS_DATHANG" msprop:Generator_TableClassName="V_DS_DATHANGDataTable" msprop:Generator_TableVarName="tableV_DS_DATHANG" msprop:Generator_TablePropName="V_DS_DATHANG" msprop:Generator_RowDeletingName="V_DS_DATHANGRowDeleting" msprop:Generator_RowChangingName="V_DS_DATHANGRowChanging" msprop:Generator_RowEvHandlerName="V_DS_DATHANGRowChangeEventHandler" msprop:Generator_RowDeletedName="V_DS_DATHANGRowDeleted" msprop:Generator_UserTableName="V_DS_DATHANG" msprop:Generator_RowChangedName="V_DS_DATHANGRowChanged" msprop:Generator_RowEvArgName="V_DS_DATHANGRowChangeEvent" msprop:Generator_RowClassName="V_DS_DATHANGRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MasoDDH" msprop:Generator_ColumnVarNameInTable="columnMasoDDH" msprop:Generator_ColumnPropNameInRow="MasoDDH" msprop:Generator_ColumnPropNameInTable="MasoDDHColumn" msprop:Generator_UserColumnName="MasoDDH">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="V_DS_KHO" msprop:Generator_TableClassName="V_DS_KHODataTable" msprop:Generator_TableVarName="tableV_DS_KHO" msprop:Generator_TablePropName="V_DS_KHO" msprop:Generator_RowDeletingName="V_DS_KHORowDeleting" msprop:Generator_RowChangingName="V_DS_KHORowChanging" msprop:Generator_RowEvHandlerName="V_DS_KHORowChangeEventHandler" msprop:Generator_RowDeletedName="V_DS_KHORowDeleted" msprop:Generator_UserTableName="V_DS_KHO" msprop:Generator_RowChangedName="V_DS_KHORowChanged" msprop:Generator_RowEvArgName="V_DS_KHORowChangeEvent" msprop:Generator_RowClassName="V_DS_KHORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MAKHO" msprop:Generator_ColumnVarNameInTable="columnMAKHO" msprop:Generator_ColumnPropNameInRow="MAKHO" msprop:Generator_ColumnPropNameInTable="MAKHOColumn" msprop:Generator_UserColumnName="MAKHO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TENKHO" msprop:Generator_ColumnVarNameInTable="columnTENKHO" msprop:Generator_ColumnPropNameInRow="TENKHO" msprop:Generator_ColumnPropNameInTable="TENKHOColumn" msprop:Generator_UserColumnName="TENKHO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="V_DS_PHANMANH" msprop:Generator_TableClassName="V_DS_PHANMANHDataTable" msprop:Generator_TableVarName="tableV_DS_PHANMANH" msprop:Generator_TablePropName="V_DS_PHANMANH" msprop:Generator_RowDeletingName="V_DS_PHANMANHRowDeleting" msprop:Generator_RowChangingName="V_DS_PHANMANHRowChanging" msprop:Generator_RowEvHandlerName="V_DS_PHANMANHRowChangeEventHandler" msprop:Generator_RowDeletedName="V_DS_PHANMANHRowDeleted" msprop:Generator_UserTableName="V_DS_PHANMANH" msprop:Generator_RowChangedName="V_DS_PHANMANHRowChanged" msprop:Generator_RowEvArgName="V_DS_PHANMANHRowChangeEvent" msprop:Generator_RowClassName="V_DS_PHANMANHRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TENCN" msprop:Generator_ColumnVarNameInTable="columnTENCN" msprop:Generator_ColumnPropNameInRow="TENCN" msprop:Generator_ColumnPropNameInTable="TENCNColumn" msprop:Generator_UserColumnName="TENCN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TENSERVER" msprop:Generator_ColumnVarNameInTable="columnTENSERVER" msprop:Generator_ColumnPropNameInRow="TENSERVER" msprop:Generator_ColumnPropNameInTable="TENSERVERColumn" msprop:Generator_UserColumnName="TENSERVER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="128" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="V_DS_VATTU" msprop:Generator_TableClassName="V_DS_VATTUDataTable" msprop:Generator_TableVarName="tableV_DS_VATTU" msprop:Generator_TablePropName="V_DS_VATTU" msprop:Generator_RowDeletingName="V_DS_VATTURowDeleting" msprop:Generator_RowChangingName="V_DS_VATTURowChanging" msprop:Generator_RowEvHandlerName="V_DS_VATTURowChangeEventHandler" msprop:Generator_RowDeletedName="V_DS_VATTURowDeleted" msprop:Generator_UserTableName="V_DS_VATTU" msprop:Generator_RowChangedName="V_DS_VATTURowChanged" msprop:Generator_RowEvArgName="V_DS_VATTURowChangeEvent" msprop:Generator_RowClassName="V_DS_VATTURow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MAVT" msprop:Generator_ColumnVarNameInTable="columnMAVT" msprop:Generator_ColumnPropNameInRow="MAVT" msprop:Generator_ColumnPropNameInTable="MAVTColumn" msprop:Generator_UserColumnName="MAVT">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TENVT" msprop:Generator_ColumnVarNameInTable="columnTENVT" msprop:Generator_ColumnPropNameInRow="TENVT" msprop:Generator_ColumnPropNameInTable="TENVTColumn" msprop:Generator_UserColumnName="TENVT">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:V_DS_KHO" />
+      <xs:field xpath="mstns:MAKHO" />
+    </xs:unique>
+    <xs:unique name="V_DS_VATTU_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:V_DS_VATTU" />
+      <xs:field xpath="mstns:MAVT" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
